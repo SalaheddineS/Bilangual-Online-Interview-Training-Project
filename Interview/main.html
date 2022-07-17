@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="file.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Practice</title>
+</head>
+
+<body background="imgs/bg.jpg">
+    <div class="upper">
+        <button onclick="francais()">Francais</button>
+        <h1>Interview Practice BY SALAHEDDINE MORCHID</h1> <button onclick="english()">English</button>
+    </div>
+    <p id="l">
+        Comment ça fonctionne: Tout d'abord metter vous a l'aise dans un envrionement d'interview,puis quand vous vous sentez pret,cliquer sur générer une question et répondez comme si vos etes devant un interviewer,si vous vous bloquez,n'hésitez pas à utiliser
+        le bouton 'astuces', puis quand vous terminez votre réponse (oralement), vous pouvez vous noter /20 selon vos propres critères et recevoir votre moyenne (astuce : Utiliser votre téléphone pour enregister votre interview), Bon Interview à vous
+        !
+    </p>
+    <div class="container">
+        <button id="f1" onclick="question()">👨‍⚖️ Generer une question 👩‍⚖️</button>
+
+        <h1 id="question">Cliquer pour Generer une question.</h1>
+
+        <button onclick="astuces()" id="help">🆘 Astuces 🆘</button>
+        <p id="tmp2">Clicker sur astuces pour l'aide</p>
+    </div>
+    <div class='moyenne'>
+        <label for="moyenne" id="f2">Notez vous sur 20 pour chaque question et recevez votre moyenne !</label>
+        <input type="number" id="moyenne" name="moyenne">
+        <input type="submit" id="f3" value="Confirmer" onclick="Pusher()">
+        <p id="tmp3"></p>
+    </div>
+
+
+
+</body>
+
+
+
+</html>
